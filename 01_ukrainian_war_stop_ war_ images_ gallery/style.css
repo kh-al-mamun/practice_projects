@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin-bottom: 3px;
+    height: 200px;
+    background-image: url(assets/header\ img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header > div {
+    height: 200px;
+    background-color: rgba(9, 2, 76, 0.506);
+
+}
+
+h1{
+    
+    font-weight: 700;
+    font-size: 68px;
+    color: rgb(150, 83, 238);
+    text-align: center;
+    padding: 50px;
+    transition: 1s;
+    
+}
+
+h1:hover{
+    color: chartreuse;
+    font-size: 88px;
+    transition:1s;
+}
+
+
+.baner{
+    width: 1380.36px;
+    height: 780.81px;
+    padding-bottom: 3px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+img:hover {
+    opacity: .8;
+  }
+
+section{
+    height: 400px;
+    padding-bottom: 2px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+
+}
+
+.first-row > div {
+    flex: 1;
+}
+
+.img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.first-section-second-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.first-section-second-container img {
+    height: 200px;
+}
+
+/* second section */
+
+.second-section{
+    display: flex;
+    gap: 2px;
+}
+
+.second-section > div{
+    flex: 1;
+}
+
+.second-sec-sec-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+}
